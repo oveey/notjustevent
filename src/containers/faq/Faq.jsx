@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import './faq.css';
 
 
@@ -48,11 +48,11 @@ const FAQ = () => {
      
       {faqData.map((item, index) => (
         <div className="faq-item" key={index}>
-          {/* <div className="question" onClick={() => toggleAnswer(index)}>
+          <div className="question" onClick={() => toggleAnswer(index)}>
             {item.question}
             <FontAwesomeIcon icon={activeIndex === index ? faChevronUp : faChevronDown} />
 
-          </div> */}
+          </div>
           {activeIndex === index && (
             <div className="answer">{item.answer}</div>
           )}
