@@ -54,8 +54,7 @@ const Customers = () => {
         </div>
 
         <div className='comment-section2'>
-          <p>The range of shoes available on this website is unmatched. I found exactly what I was
-              looking for, and the prices are competitive. Great value for money. 
+          <p>I am absolutely in love with the shoes I purchased from this website! They are not only stylish but also incredibly comfortable. Highly recommended!
           </p>
           <div className='image2'>
             {<img src={emily} alt="Emily"/>}
@@ -71,8 +70,7 @@ const Customers = () => {
         </div>
 
         <div className='comment-section4'>
-          <p>The range of shoes available on this website is unmatched. I found exactly what I was
-              looking for, and the prices are competitive. Great value for money. 
+          <p>The shoes I ordered exceeded my expectations. The craftsmanship and attention to detail are remarkable. I feel like I'm walking on clouds!
           </p>
           <div className='image4'>
             {<img src={jessica} alt="Jessica"/>}
@@ -82,6 +80,8 @@ const Customers = () => {
 
       </div>
 
+      {/***************** For mobile screen ****************/}
+
       <div className='comment-0'>
 
         <div className='comment-section-0'>
@@ -89,40 +89,35 @@ const Customers = () => {
             looking for, and the prices are competitive. Great value for money. 
           </p>
           <div className='image-0'>
-            {<img src={jessica} alt="Jessica"/>}
+            {<img src={micheal} alt="Micheal"/>}
           </div> 
         </div>
 
         <div className='comment-section-0'>
-          <p>The range of shoes available on this website is unmatched. I found exactly what I was
-            looking for, and the prices are competitive. Great value for money. 
+          <p>TThe customer service I received was outstanding. They went above and beyond to ensure my satisfaction. The quality of the shoes is excellent too. Will definitely be a returning customer!
           </p>
           <div className='image-0'>
-            {<img src={jessica} alt="Jessica"/>}
+            {<img src={david} alt="David"/>}
           </div> 
         </div>
 
         <div className='comment-section-0'>
-          <p>The range of shoes available on this website is unmatched. I found exactly what I was
-            looking for, and the prices are competitive. Great value for money. 
+          <p>I am absolutely in love with the shoes I purchased from this website! They are not only stylish but also incredibly comfortable. Highly recommended!
           </p>
           <div className='image-0'>
-            {<img src={jessica} alt="Jessica"/>}
+            {<img src={emily} alt="Emily"/>}
           </div> 
         </div>
 
         <div className='comment-section-0'>
-          <p>The range of shoes available on this website is unmatched. I found exactly what I was
-            looking for, and the prices are competitive. Great value for money. 
-          </p>
+          <p>I've never had such a seamless online shopping experience. The website is user-friendly, the checkout process is smooth, and the shoes arrived right on time. I'm impressed!. </p>
           <div className='image-0'>
-            {<img src={jessica} alt="Jessica"/>}
+            {<img src={sarah} alt="Sarah"/>}
           </div> 
         </div>
 
         <div className='comment-section-0'>
-          <p>The range of shoes available on this website is unmatched. I found exactly what I was
-            looking for, and the prices are competitive. Great value for money. 
+          <p>The shoes I ordered exceeded my expectations. The craftsmanship and attention to detail are remarkable. I feel like I'm walking on clouds! 
           </p>
           <div className='image-0'>
             {<img src={jessica} alt="Jessica"/>}

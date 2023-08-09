@@ -92,12 +92,14 @@
 }
 
 .cta__button .button3{
-    border-radius: 16px;
-    background: #F3F3F3;
-    padding: 20px 80px;
-    font-size: 16px;
+    border-radius: 5px;
+    background: transparent;
+    padding: 20px 60px;
+    font-size: 14px;
     font-weight: 555;
-    border: none;
+    color: #F5F5F5;
+    border-color: #F5F5F5;
+    outline: none;
 
 }
 
@@ -117,7 +119,7 @@
     }
     
     .cta-content h1{
-        font-size: 34px;
+        font-size: 30px;
       
     }
     .cta-content p{
