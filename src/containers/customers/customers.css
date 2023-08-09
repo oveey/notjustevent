@@ -3,7 +3,6 @@
 }
 
 .customer-content h1{
-    background: white;
     color: #0B0B0B;
     text-align: center;
     font-family: var(--font-family);
@@ -227,9 +226,9 @@
 }
 .image-0 img{
     position: absolute;
-    width:20%;
-    left: 18rem;
-    margin-top: 3rem;
+    width:14%;
+    left: 21rem;
+    margin-top: 2rem;
 
 }
 
