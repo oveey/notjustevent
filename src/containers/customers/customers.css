@@ -1,5 +1,7 @@
 .customer {
     text-align: center;
+    width: 100%;
+
 }
 
 .customer-content h1{
@@ -227,8 +229,8 @@
 .image-0 img{
     position: absolute;
     width:14%;
-    left: 21rem;
-    margin-top: 2rem;
+    left: 19rem;
+    margin-top: 4rem;
 
 }
 
