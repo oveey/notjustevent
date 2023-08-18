@@ -47,8 +47,9 @@
 /* CSS for Footer Logo and Copyright */
 
 .footer-image {
-    max-width: 1200px;
     width: 100%;
+    max-width: 1200px;
+    height: auto;
     margin-top: 3rem;
 
 }

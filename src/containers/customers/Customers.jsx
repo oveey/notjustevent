@@ -1,10 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './customers.css';
+import  AOS from 'aos';
+import 'aos/dist/aos.css'; 
 import { sarah, david, jessica, micheal, emily } from './imports.js';
 
 
 
+
 const Customers = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 2000, // Set your desired duration for animations
+      once: false, // Animations will only occur once
+      startEvent: 'DOMContentLoaded', // Trigger animations when the DOM is fully loaded
+      offset: 100, // Adjust this value as needed
+      
+    });
+  }, []);
+
   return (
     <div className="customer section__padding" id="home">
       <div className="customer-content">
@@ -35,7 +49,7 @@ const Customers = () => {
       </div>
 
 
-      <div className='comment'>
+      <div className='comment' data-aos="zoom-out">
         <div className='comment-section'>
           <p>The range of shoes available on this website is unmatched. I found exactly what I was
               looking for, and the prices are competitive. Great value for money. 
@@ -53,7 +67,7 @@ const Customers = () => {
           </div> 
         </div>
 
-        <div className='comment-section2'>
+        <div className='comment-section2' >
           <p>I am absolutely in love with the shoes I purchased from this website! They are not only stylish but also incredibly comfortable. Highly recommended!
           </p>
           <div className='image2'>
@@ -61,7 +75,7 @@ const Customers = () => {
           </div> 
         </div>
 
-        <div className='comment-section3'>
+        <div className='comment-section3' >
           <p>I've never had such a seamless online shopping experience. The website is user-friendly, the checkout process is smooth, and the shoes arrived right on time. I'm impressed!. 
           </p>
           <div className='image3'>
@@ -69,7 +83,7 @@ const Customers = () => {
           </div> 
         </div>
 
-        <div className='comment-section4'>
+        <div className='comment-section4' >
           <p>The shoes I ordered exceeded my expectations. The craftsmanship and attention to detail are remarkable. I feel like I'm walking on clouds!
           </p>
           <div className='image4'>
