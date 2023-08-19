@@ -15,7 +15,7 @@ const Footer = () => {
       duration: 2000, // Set your desired duration for animations
       once: false, // Animations will only occur once
       startEvent: 'DOMContentLoaded', // Trigger animations when the DOM is fully loaded
-      offset: 100, // Adjust this value as needed
+      offset: 120, // Adjust this value as needed
 
 
     });

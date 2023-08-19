@@ -14,7 +14,7 @@ const CTA = () => {
       duration: 2000, // Set your desired duration for animations
       once: false, // Animations will only occur once
       startEvent: 'DOMContentLoaded', // Trigger animations when the DOM is fully loaded
-      offset: 100, // Adjust this value as needed
+      offset: 120, // Adjust this value as needed
 
 
     });
@@ -29,7 +29,7 @@ const CTA = () => {
         </div>
       </div>
 
-      <div className="cta__section section__padding">
+      <div className="cta__section section__margin">
         {<img src={cta1} className="cta1" alt="cta1" data-aos="fade-right"  />}
 
         <div className='cta__text'>
@@ -44,7 +44,7 @@ const CTA = () => {
       </div>
 
 
-      <div className="cta__section section__padding">
+      <div className="cta__section section__margin">
 
         <div className='cta__section1'>
           <div className='cta__text'>
@@ -64,7 +64,7 @@ const CTA = () => {
       </div>
 
 
-      <div className="cta__section section__padding">
+      <div className="cta__section section__margin">
         {<img src={cta3} className="cta1" alt="cta3" data-aos="fade-right"  />}
 
         <div className='cta__text'>
@@ -78,7 +78,7 @@ const CTA = () => {
 
       </div>
 
-      <div className="cta__section section__padding">
+      <div className="cta__section section__margin">
 
         <div className='cta__section1'>
           <div className='cta__text'>

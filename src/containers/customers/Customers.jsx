@@ -1,20 +1,24 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState} from 'react';
 import './customers.css';
 import  AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import CountUp from 'react-countup';
+import ScrollTrigger from 'react-scroll-trigger'; // Updated import
 import { sarah, david, jessica, micheal, emily } from './imports.js';
 
 
 
 
 const Customers = () => {
+  const [CounterOn, setCounterOn] = useState(false); // Initialize state
+
 
   useEffect(() => {
     AOS.init({
       duration: 2000, // Set your desired duration for animations
       once: false, // Animations will only occur once
       startEvent: 'DOMContentLoaded', // Trigger animations when the DOM is fully loaded
-      offset: 100, // Adjust this value as needed
+      offset: 120, // Adjust this value as needed
       
     });
   }, []);
@@ -24,25 +28,26 @@ const Customers = () => {
       <div className="customer-content">
         <h1>Discover the Stories of Delighted Customers </h1>
         <p>Explore the heartfelt testimonials and reviews shared by our valued customers, showcasing their delightful experiences with our top-notch products and outstanding service.</p>
-
-        <div className="content section_padding">
-          <div className='content-number1'>
-            <h4>260k+</h4>
-            <p>Customers</p>
+        <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
+          <div className="content section_padding">
+            <div className='content-number1'>
+              <h4>{CounterOn && <CountUp start={0} end={260} duration={2} delay={0} />}K+</h4>
+              <p>Customers</p>
+            </div>
+            
+            <div className='content-number1'>
+              <h4>{CounterOn && <CountUp start={0} end={300} duration={2} delay={0} />}K+</h4>
+              <p>Customers</p>
+            </div>
+            
+            <div className='content-number1'>
+              <h4>{CounterOn && <CountUp start={0} end={200} duration={2} delay={0} />}M+</h4>
+              <p>Customers</p>
+            </div>
           </div>
+        </ScrollTrigger>
 
-          <div className='content-number1'>
-            <h4>300k+</h4>
-            <p>Store</p>
-          </div>
-
-          <div className='content-number1'>
-            <h4>2Mk+</h4>
-            <p>Orders</p>
-          </div>
-          
-        </div>
-
+    
         
          
 
