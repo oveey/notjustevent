@@ -25,7 +25,6 @@
 .cta-content p{
     color: #A1A1A1;
     text-align: center;
-    padding: 0 2rem;
     font-size: 20px;
     font-style: normal;
     font-weight: 673;
@@ -34,7 +33,7 @@
 
 .cta__section{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 4rem;
     background: black;
@@ -43,7 +42,7 @@
 
 .cta__section1{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 10rem;
     text-align: center;
@@ -125,7 +124,6 @@
     .cta-content p{
         color: #A1A1A1;
         text-align: center;
-        padding: 0 ;
         font-size: 16px;
      
     }

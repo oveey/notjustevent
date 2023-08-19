@@ -6,7 +6,7 @@
 
 }
 .App{
-  background: rgb(247, 247, 247);
+  background: rgb(3, 3, 3);
 }
 
 body{
@@ -20,8 +20,8 @@ body{
   padding:4rem 6rem;
 
 }
-.section__Margin {
-  margin:2rem 2rem;
+.section__margin {
+  margin:2rem 3rem;
 
 }
 
