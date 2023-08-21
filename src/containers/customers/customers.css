@@ -32,11 +32,11 @@
 .content{
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 2rem;
     align-items: center;
     margin-top: 4rem;
+    width:100%;
 
 }
 
@@ -216,7 +216,6 @@
 
 .comment-section-0{
     border: 3px solid #E5E0F2;
-    background: #F3F1F9;
     display: flex;
     padding: 13px 40px;
     border-radius: 12px;
@@ -226,8 +225,63 @@
 
 .comment-section-0 p{
     font-size: 13px;
+    color: #4F4179;
+    padding: 13px 40px;
+    border-radius: 12px;
+
+
+
 
 }
+.comment-section-01 {
+    font-size: 13px;
+    color: #48565F;
+    background: #F3F1F9;
+    border: 3px solid #E5E0F2;
+    padding: 13px 40px;
+    border-radius: 12px;
+
+
+
+
+}
+.comment-section-02 p{
+    font-size: 13px;
+    color: #854040;
+    background: #F3F1F9;
+    border: 3px solid #E5E0F2;
+    padding: 13px 40px;
+    border-radius: 12px;
+
+
+
+
+}
+.comment-section-03 p{
+    font-size: 13px;
+    color: #4F4179;
+    border: 3px solid #E5E0F2;
+    display: flex;
+    padding: 13px 40px;
+    border-radius: 12px;
+
+
+
+
+}
+.comment-section-04 p{
+    font-size: 13px;
+    color: #87623C;
+    border: 3px solid #E5E0F2;
+    display: flex;
+    padding: 13px 40px;
+    border-radius: 12px;
+
+
+
+
+}
+
 .image-0 img{
     position: absolute;
     width:14%;
@@ -235,6 +289,8 @@
     margin-top: 4rem;
 
 }
+
+
 
 
 
@@ -256,6 +312,13 @@
     .customer-content p{
         font-size: 16px;
         padding: 0;
+    
+    }
+    .content{
+        gap:1rem;
+
+        
+    
     
     }
 

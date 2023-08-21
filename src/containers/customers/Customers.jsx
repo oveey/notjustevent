@@ -29,7 +29,7 @@ const Customers = () => {
         <h1>Discover the Stories of Delighted Customers </h1>
         <p>Explore the heartfelt testimonials and reviews shared by our valued customers, showcasing their delightful experiences with our top-notch products and outstanding service.</p>
         <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
-          <div className="content section_padding">
+          <div className="content">
             <div className='content-number1'>
               <h4>{CounterOn && <CountUp start={0} end={260} duration={2} delay={0} />}K+</h4>
               <p>Customers</p>
@@ -37,12 +37,12 @@ const Customers = () => {
             
             <div className='content-number1'>
               <h4>{CounterOn && <CountUp start={0} end={300} duration={2} delay={0} />}K+</h4>
-              <p>Customers</p>
+              <p>Store</p>
             </div>
             
             <div className='content-number1'>
               <h4>{CounterOn && <CountUp start={0} end={200} duration={2} delay={0} />}M+</h4>
-              <p>Customers</p>
+              <p>Order</p>
             </div>
           </div>
         </ScrollTrigger>
@@ -112,15 +112,15 @@ const Customers = () => {
           </div> 
         </div>
 
-        <div className='comment-section-0'>
-          <p>TThe customer service I received was outstanding. They went above and beyond to ensure my satisfaction. The quality of the shoes is excellent too. Will definitely be a returning customer!
+        <div className='comment-section-01'>
+          <p>The customer service I received was outstanding. They went above and beyond to ensure my satisfaction. The quality of the shoes is excellent too. Will definitely be a returning customer!
           </p>
           <div className='image-0'>
             {<img src={david} alt="David"/>}
           </div> 
         </div>
 
-        <div className='comment-section-0'>
+        <div className='comment-section-02'>
           <p>I am absolutely in love with the shoes I purchased from this website! They are not only stylish but also incredibly comfortable. Highly recommended!
           </p>
           <div className='image-0'>
@@ -128,14 +128,14 @@ const Customers = () => {
           </div> 
         </div>
 
-        <div className='comment-section-0'>
+        <div className='comment-section-03'>
           <p>I've never had such a seamless online shopping experience. The website is user-friendly, the checkout process is smooth, and the shoes arrived right on time. I'm impressed!. </p>
           <div className='image-0'>
             {<img src={sarah} alt="Sarah"/>}
           </div> 
         </div>
 
-        <div className='comment-section-0'>
+        <div className='comment-section-04'>
           <p>The shoes I ordered exceeded my expectations. The craftsmanship and attention to detail are remarkable. I feel like I'm walking on clouds! 
           </p>
           <div className='image-0'>
