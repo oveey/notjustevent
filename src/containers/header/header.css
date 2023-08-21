@@ -1,6 +1,5 @@
 
 .header {
-    display: flex;
     text-align: center;
     width: 100%;
     background: var(--color-bg);
@@ -87,17 +86,74 @@
 .header-content__human img{
     width: 100%;
     max-width: 2500px;
+    min-width: 200px;
     position: relative;
     top: -8.8rem;
     height: auto;
+    animation: floatAnimation 3s ease-in-out infinite; /* Apply animation */
 
 
+}
+/************************* brand ****************************/
+.brand{
+    width: 100%;
+    position: relative;
+}
+
+
+
+.brand__content-container h1{
+    color: #0B0B0B;
+    text-align: center;
+    font-family: Inter;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 670;
+    margin-bottom: 2rem;
+}
+
+.brand__content-container p{
+    color: #838383;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 673;
+    line-height: 139%; /* 27.8px */
+}
+
+.brand-image{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 6rem;
+
+}
+.brand-image img{
+
+    width: 100px;
+    height: 100px;
+
+}
+
+
+
+
+
+@keyframes floatAnimation {
+    0%, 100% {
+      transform: translateY(0); /* Starting and ending position */
+    }
+    50% {
+      transform: translateY(-20px); /* Floating position in the middle of animation */
+    }
 }
   
 @media screen and (max-width: 1050px) {
     .header{
         flex-direction: column;
     }
+   
   
 }
 
@@ -131,9 +187,31 @@
     }
 
     .header-content__human img{
-        top: -2.8rem;
+        top: -1.2rem;
     
     }
+
+    .brand__content-container h1{
+        font-size: 42px;
+    }
+    .brand__content-container p{
+        font-size: 14px;
+        padding: 0;
+    }
+    .header-content  p{
+        font-size: 18px;
+        padding: 0;
+        margin-bottom: 2rem;
+
+
+    }
+    .brand-image img{
+
+        width: 60px;
+        height: 80px;
+    
+    }
+   
 
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Brand, CTA,  Navbar } from './components';
+import { CTA,  Navbar } from './components';
 import { Customers, Faq, Footer, Header} from './containers';
 import './App.css';
 
@@ -15,7 +15,6 @@ const App = () => {
         <Header/>
       </div>  
       
-      <Brand/>
       <CTA/>
       <Customers/>
       <Faq/>
